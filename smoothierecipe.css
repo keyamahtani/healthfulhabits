@@ -1,0 +1,16 @@
+h2{
+  font-size: 30px;
+  font-family: "Comic Sans";
+}
+h1{
+  font-size: 30px;
+}
+body{
+  font-family: "Brush Script MT", cursive;
+  background-color: lightblue;
+  font-size: 20px;
+}
+p {
+  font-family: "Comic Sans";
+  font-size: 40px;
+}
