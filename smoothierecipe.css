@@ -5,6 +5,10 @@ h2{
 h1{
   font-size: 30px;
 }
+h3{
+  font-size: 30px;
+  font-family: "Brush Script MT", cursive;
+}
 body{
   font-family: "Brush Script MT", cursive;
   background-color: lightblue;
