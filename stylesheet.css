@@ -1,0 +1,27 @@
+Marquee {
+  color: #6287c4;
+  font-size: 75px;
+
+}
+body {
+  background-color: #fcb0f2;
+  font-family: "Brush Script MT", cursive;
+  font-size: 30px;
+
+
+}
+ul {
+  text-align: center;
+
+  list-style: none;
+}
+
+h1 {
+  font-family: "Harrington", fantasy;
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+} 
