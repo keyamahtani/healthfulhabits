@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <title>healthful habits</title>
   </head>
 
@@ -13,12 +14,15 @@
   <h2>recipes</h2>
   <p>
   <ul>
+    div class="container">
+  <div class="row">
+    <div class="col">
   <a target="_blank" href="smoothierecipe.html"><li>Smoothies and Smoothie Bowls</li></a>
   <input type = "button" value = "<" onclick = "lastSmoothie()">
   <img id="smoothie" alt = "smoothie bowl" src="./smoothiebowl.JPG" width="250" height="250">
   <input type = "button" value = ">" onclick = "nextSmoothie()">
-
-
+    
+    
   <a target="_blank" href="bananapancakesrecipe.html"><li>Banana Pancakes</li></a>
   <input type = "button" value = "<" onclick = "lastPancakes()">
   <img id="bananapancakes" alt ="banana pancakes" src="pancake.JPG" width="250" height="250">
@@ -27,8 +31,9 @@
   
   <a target="_blank" href="energybitesrecipe.html"><li>Energy Bites</li></a>
   <img src="energy bites.JPG" width="250" height="250">
-
-  <a target="_blank" href="oats.html"><li>Overnight Oats</li></a>
+</div>
+    <div class="col">
+    <a target="_blank" href="oats.html"><li>Overnight Oats</li></a>
   <input type = "button" value = "<" onclick = "lastOats()">
   <img id=oatmeal alt = "overnight oats" src="overnight oats.JPG" width="250" height="250">
   <input type = "button" value = ">" onclick = "nextOats()">
@@ -41,7 +46,8 @@
 
   <li>Gram Flour Crepes</li>
   <img alt = "gram flour crepes" src="crepe.JPG" width="250" height="250">
-
+    </div>
+    <div class="col">
   <li>Chia Seed Pudding</li>
     <img alt = "chia seed pudding" src="chia.JPG" width="250" height="250">
 
@@ -50,12 +56,17 @@
 
   <li>Avocado Toast With Poached Eggs</li>
     <img alt = "avocado toast" src="avocadotoast.JPG" width="250" height="250">
-
+ </div>
+  </div>
+</div>
   </ul>
 
 <img src= https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-5.png width = "30" height = "30">
   follow <a href="https://www.instagram.com/healthfulhabits_/">@healthfulhabits_ </a> for more!
   </p>
   <script src= "script.js"> </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
   </body>
 </html>
