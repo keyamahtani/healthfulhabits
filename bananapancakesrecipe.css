@@ -3,10 +3,14 @@ body{
   background-color: #dcf6fa;
   font-size: 28px;
 }
+h3{
+  font-size: 38px;
+  font-family: Tahoma, Geneva, sans-serif;
+}
 h2{
   font-size: 38px;
   font-family: Tahoma, Geneva, sans-serif;
 }
 h1{
-  font-size: 38px;
+  font-size: 45px;
 }
