@@ -1,5 +1,5 @@
 function nextSmoothie(){
-    document.getElementById('smoothie').src='smoothieTwo.JPG';
+    document.getElementById('smoothie').src='smoothieTwo.jpg';
 }
 function lastSmoothie(){
     document.getElementById('smoothie').src='smoothiebowl.JPG';
