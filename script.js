@@ -5,10 +5,10 @@ function lastSmoothie(){
     document.getElementById('smoothie').src='smoothiebowl.JPG';
 }
 function lastPancakes(){
-    document.getElementById('bananapancakes').src='pancake.JPG';
+    document.getElementById('bananapancakes').src='pancake.jpg';
 }
 function nextPancakes(){
-    document.getElementById('bananapancakes').src='pancakes2.JPG';
+    document.getElementById('bananapancakes').src='pancakes2.jpg';
 }
 function nextOats(){
     document.getElementById('oatmeal').src='oats2.JPG';
