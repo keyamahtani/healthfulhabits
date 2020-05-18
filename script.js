@@ -11,8 +11,8 @@ function nextPancakes(){
     document.getElementById('bananapancakes').src='pancakes2.jpg';
 }
 function nextOats(){
-    document.getElementById('oatmeal').src='oats2.JPG';
+    document.getElementById('oatmeal').src='oats2.jpg';
 }
 function lastOats(){
-    document.getElementById('oatmeal').src='overnight oats.JPG';
+    document.getElementById('oatmeal').src='overnight oats1.jpg';
 }
