@@ -2,7 +2,7 @@ function nextSmoothie(){
     document.getElementById('smoothie').src='smoothieTwo.jpg';
 }
 function lastSmoothie(){
-    document.getElementById('smoothie').src='smoothiebowl.JPG';
+    document.getElementById('smoothie').src='smoothie.jpg';
 }
 function lastPancakes(){
     document.getElementById('bananapancakes').src='pancake.jpg';
