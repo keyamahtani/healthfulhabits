@@ -8,7 +8,7 @@ function lastPancakes(){
     document.getElementById('bananapancakes').src='pancake.jpg';
 }
 function nextPancakes(){
-    document.getElementById('bananapancakes').src='pancakes2.jpg';
+    document.getElementById('bananapancakes').src='pancake2.jpg';
 }
 function nextOats(){
     document.getElementById('oatmeal').src='oats2.jpg';
